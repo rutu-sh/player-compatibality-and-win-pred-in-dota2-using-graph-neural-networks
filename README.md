@@ -25,13 +25,15 @@ Dota 2 tournaments are often broadcast live on streaming platforms like Twitch a
 
 Overall, Dota 2 esports tournaments are a thrilling spectacle, showcasing the highest levels of skill and teamwork in one of the most popular and competitive esports games in the world.
 
-## Related Work
+## Related Works
 
 Being a highly competitive e-sport, players need a good coordination with each other. Each team can pick and ban heros from selection, and hence the team's composition matters, the players should be able to play with heros of varying skills so that the team can make a balanced selection of heros that can counter the opposition. 
 
-Works have been done on analysing the hero composition in teams. Conley et al., 2013 <sup>[1]</sup> had created a recommendation engine for picking heros in Dota2 that will perform well against the opposing team of heros. Atish et al., 2014<sup>[1]</sup> had found a correlation between the hero selection and the chances of winning, by modelling the interactions between heros by performing logistic regression. Wang et al, 2016<sup>[3]</sup> introduced neural networks along with duration of the match as one of the features. Chen, Zhengxing et al, 2018<sup>[4]</sup> generated embeddings for hero avatars and used synergy and opposition between them to predict the probability of win. 
+Work has been done on analysing the hero composition in teams. Conley et al., 2013 <sup>[1]</sup> had created a recommendation engine for picking heros in Dota2 that will perform well against the opposing team of heros. Atish et al., 2014<sup>[1]</sup> had found a correlation between the hero selection and the chances of winning, by modelling the interactions between heros by performing logistic regression. Wang et al, 2016<sup>[3]</sup> introduced neural networks along with duration of the match as one of the features. Chen, Zhengxing et al, 2018<sup>[4]</sup> generated embeddings for hero avatars and used synergy and opposition between them to predict the probability of win. Wong et al., 2022<sup>[5]</sup> surveyed several methods for predicting the match outcome and first-blood in Dota2, based solely on pre-match team character selections. 
 
+There is an underlying assumption to the approaches mentioned. They only model the interaction between heros, ignoring the interaction between players, assuming that each player is equally skilled. Cheng, Ziqiang et al., 2019<sup>[6]</sup> have done an analysis on the effects of team composition in MOBA games like "Honor of Kings" and found the effect of the individual players on the team composition and how it affects winning, surrendering, and abusive language in the game. Ahmad, Sabbir et al., 2019<sup>[7]</sup> have proposed a method to model individual and team behavior by labeling tactical and strategical decisions and visualize them. In a separate approach, Yang, Pu et al., 2014 <sup>[8]</sup> have used graphs to represent combat as a sequence of graphs and used the features from extracted from those graph to train a decision tree and generate graphs denoting patterns in compat that can lead to a win. These studies have shown that the interaction between players is also an important feature while modeling a system for MOBA games. 
 
+In the space of representing entities and the relationship between them, a lot of developments have been made in the domain of Graph Neural Networks. 
 
 
 
@@ -46,4 +48,11 @@ Works have been done on analysing the hero composition in teams. Conley et al., 
 
 [4] Chen, Zhengxing et al. [“Modeling Game Avatar Synergy and Opposition through Embedding in Multiplayer Online Battle Arena Games.” _ArXiv_ abs/1803.10402 (2018): n. pag.](https://www.semanticscholar.org/paper/Modeling-Game-Avatar-Synergy-and-Opposition-through-Chen-Xu/67050ffbe46164b48bdf64a91364883a8c2884ce)
 
+[5] Wong, Nicholas Heng Loong et al. [“Predictive Analytics of First Blood and Match Outcome in Dota 2.” _TENCON 2022 - 2022 IEEE Region 10 Conference (TENCON)_ (2022): 1-6.](https://www.semanticscholar.org/paper/Predictive-Analytics-of-First-Blood-and-Match-in-2-Wong-Kwok/5b63766687e6fa7ce58859ddaea679fa2f5e3f27#references)
+
+[6] Cheng, Ziqiang et al. [“What Makes a Good Team? A Large-scale Study on the Effect of Team Composition in Honor of Kings.” _The World Wide Web Conference_ (2019): n. pag.](https://www.semanticscholar.org/paper/What-Makes-a-Good-Team-A-Large-scale-Study-on-the-Cheng-Yang/37a1db2f1e064b7579c07721ee3fd77b6b583958)
+
+[7] Ahmad, Sabbir et al. [“Modeling Individual and Team Behavior through Spatio-temporal Analysis.” _Proceedings of the Annual Symposium on Computer-Human Interaction in Play_ (2019): n. pag.](https://www.semanticscholar.org/paper/Modeling-Individual-and-Team-Behavior-through-Ahmad-Bryant/2266597c947d0b2407dbca5bfbf2cfa9e05b22bd)
+
+[8] Yang, Pu et al. [“Identifying patterns in combat that are predictive of success in MOBA games.” _International Conference on Foundations of Digital Games_ (2014).](https://www.semanticscholar.org/paper/Identifying-patterns-in-combat-that-are-predictive-Yang-Harrison/9bc1cfc95bcaeb08ce460b797e6718fe522aff95)
 
