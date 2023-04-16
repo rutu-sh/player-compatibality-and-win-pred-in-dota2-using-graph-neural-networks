@@ -1,3 +1,5 @@
+# Player compatibility can win prediction in DOTA 2 using Graph Neural Networks
+
 
 ## Prelude
 *This research is a work-in-progress and proposed solution might change in the future. Graph Neural Networks is a vast topic, and doing a proper research takes time. However, I am keeping this open for anyone to collaborate as I believe in collaborative development and peer review. Feel free to review and contribute, it will be acknowledged.*
