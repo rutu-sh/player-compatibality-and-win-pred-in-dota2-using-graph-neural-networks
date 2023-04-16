@@ -1,4 +1,4 @@
-# Player compatibility can win prediction in DOTA 2 using Graph Neural Networks
+# Player compatibility and win prediction in DOTA 2 using Graph Neural Networks
 
 
 ## Prelude
