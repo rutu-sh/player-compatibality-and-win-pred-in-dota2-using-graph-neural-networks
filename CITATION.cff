@@ -4,7 +4,11 @@ authors:
 - family-names: "Shitole"
   given-names: "Ruturaj"
   orcid: "https://orcid.org/0009-0000-5162-8875"
+preferred-citation:
+  type: generic
+  authors:
+  - family-names: "Shitole"
+    given-names: "Ruturaj"
+    orcid: "https://orcid.org/0009-0000-5162-8875"
 title: "Player compability and win prediction in Dota 2 using Graph Neural Networks"
-version: 0.0.0
-date-released: 2023-04-21
 url: "https://github.com/rutu-sh/player-compatibality-and-win-pred-in-dota2-using-graph-neural-networks"
