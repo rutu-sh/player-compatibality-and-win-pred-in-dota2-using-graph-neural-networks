@@ -10,5 +10,7 @@ preferred-citation:
   - family-names: "Shitole"
     given-names: "Ruturaj"
     orcid: "https://orcid.org/0009-0000-5162-8875"
+version: unreleased
+date-released: 2023-04-21
 title: "Player compability and win prediction in Dota 2 using Graph Neural Networks"
 url: "https://github.com/rutu-sh/player-compatibality-and-win-pred-in-dota2-using-graph-neural-networks"
