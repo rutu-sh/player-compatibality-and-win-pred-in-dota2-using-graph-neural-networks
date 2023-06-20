@@ -4,6 +4,10 @@
 ## Prelude
 *This research is a work-in-progress and proposed solution might change in the future. Graph Neural Networks is a vast topic, and doing a proper research takes time. However, I am keeping this open for anyone to collaborate as I believe in collaborative development and peer review. Feel free to review and contribute, it will be acknowledged.*
 
+### The research is still a Work In Progress
+Refer to the [issues secion](https://github.com/rutu-sh/player-compatibality-and-win-pred-in-dota2-using-graph-neural-networks/issues)
+
+
 
 ## Dota2
 
@@ -104,7 +108,8 @@ Generating such embeddings will give us low dimensional and latent embeddings fo
 *fig-4: Finding substitute players*
 
 
-
+## The research is still a Work In Progress
+Refer to the [issues secion](https://github.com/rutu-sh/player-compatibality-and-win-pred-in-dota2-using-graph-neural-networks/issues)
 
 
 ## References
